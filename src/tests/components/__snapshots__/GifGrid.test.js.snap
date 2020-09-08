@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Priebas con el GifGrid Debe mostrarse correctamente 1`] = `
+<Fragment>
+  <h3>
+     
+    Dragon Ball
+     
+  </h3>
+  <p>
+    Loading
+  </p>
+  <div
+    className="card-grid animate__animated animate__fadeInDown"
+  />
+</Fragment>
+`;
+
+exports[`Priebas con el GifGrid debe de mostrat items cuando se carga imagenes 1`] = `
+<Fragment>
+  <h3>
+     
+    Dragon Ball
+     
+  </h3>
+  <p>
+    Loading
+  </p>
+  <div
+    className="card-grid animate__animated animate__fadeInDown"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="prueba de verdad"
+      url="https://localhost/nada/hola.jpg"
+    />
+  </div>
+</Fragment>
+`;
